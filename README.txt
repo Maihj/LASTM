@@ -1,3 +1,5 @@
+LASTM is developed based on LAST.
+
 Please see the documentation in the "doc" directory.
 
 * Installation & general info: doc/last.txt
