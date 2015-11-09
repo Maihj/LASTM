@@ -1,4 +1,4 @@
-LASTM is developed based on LAST.
+LASTM is developed based on LAST: http://last.cbrc.jp/.
 
 Please see the documentation in the "doc" directory.
 
