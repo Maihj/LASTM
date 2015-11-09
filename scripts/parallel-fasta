@@ -1,0 +1,8 @@
+#! /bin/sh
+
+/home/hjmai/parallel --gnu --version > /dev/null || exit 1
+
+/home/hjmai/parallel --gnu --minversion 20130222 > /dev/null ||
+echo $(basename $0): warning: old version of parallel, might be slow 1>&2
+
+exec /home/hjmai/parallel --gnu --pipe --recstart '>' "$@"
