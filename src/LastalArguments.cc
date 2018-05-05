@@ -238,7 +238,7 @@ LAST home page: http://last.cbrc.jp/\n\
     case 'I':
       unstringify( dist, optarg );
       if( dist < 0 ) badopt( c, optarg );
-
+      break;
     case 'D':
       unstringify( queryLettersPerRandomAlignment, optarg );
       if( queryLettersPerRandomAlignment <= 0 ) badopt( c, optarg );
